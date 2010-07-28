@@ -16,20 +16,20 @@ body {
 
 
 
-footer {
+#footer {
   color:#ccc;
   clear:both;
   text-align:center;
 }
-footer a {
+#footer a {
   color:#ccc;
   text-decoration:none;
 }
 
-footer ul {
+#footer ul {
   list-style:none;
 }
-footer ul li {
+#footer ul li {
   display:inline;
   padding:0px 30px;
 }
