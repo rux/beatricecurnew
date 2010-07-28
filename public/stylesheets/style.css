@@ -20,6 +20,10 @@ header a {
   padding-top:5em;
 }
 
+#content a {
+  color:#666;
+}
+
 
 
 footer {
