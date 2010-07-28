@@ -1,0 +1,41 @@
+
+body {
+  font-size: 10pt;
+  font-family: helvetica, sans-serif;
+}
+
+header {
+  
+  text-align:center;
+}
+
+header a {
+  color:#ccc;
+  text-decoration:none;
+}
+
+
+#content {
+  text-align:right;
+  padding-top:5em;
+}
+
+
+
+footer {
+  color:#ccc;
+  clear:both;
+  text-align:center;
+}
+footer a {
+  color:#ccc;
+  text-decoration:none;
+}
+
+footer ul {
+  list-style:none;
+}
+footer ul li {
+  display:inline;
+  padding:0px 30px;
+}
