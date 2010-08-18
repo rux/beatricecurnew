@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Bc2::Application.load_tasks
+Beatricecurnew::Application.load_tasks
