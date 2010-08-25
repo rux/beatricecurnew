@@ -5,6 +5,25 @@ body {
 }
 
 
+#nav ul {list-style: none}
+
+#nav ul li {
+  display: inline-block;
+  width:80px;
+}
+
+
+#highlight_home #home_tab a {  background-color:#ddd; }
+#highlight_gallery #gallery_tab a {  background-color:#ddd; }
+#highlight_news #news_tab a {  background-color:#ddd; }
+#highlight_contact #contact_tab a {  background-color:#ddd; }
+
+
+#nav ul li a { text-decoration: none; }
+#nav ul li a:hover {  background-color:#999; }
+
+
+
 #content {
   text-align:right;
   padding-top:5em;
