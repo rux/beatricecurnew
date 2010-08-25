@@ -584,3 +584,403 @@ Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 22:08:52 +0100 2010
   Processing by PagesController#gallery as HTML
 Rendered pages/gallery.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 22:35:40 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (63.1ms)
+Completed 200 OK in 68ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:35:43 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Wed Aug 25 22:36:34 +0100 2010
+  Processing by Rails::InfoController#properties as HTML
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered inline template (0.3ms)
+Completed 200 OK in 18ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:37:28 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:39:32 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:44:13 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:44:47 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:44:56 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:44:58 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:45:04 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:45:33 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:45:49 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:45:56 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:46:24 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:46:51 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:47:12 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:47:23 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:48:01 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 22:48:04 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 22:48:06 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/news" for 127.0.0.1 at Wed Aug 25 22:48:08 +0100 2010
+  Processing by PagesController#news as HTML
+Rendered pages/news.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:48:09 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 22:48:10 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:48:12 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 22:48:13 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:48:15 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 22:48:28 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 22:50:57 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:51:18 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:51:35 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:52:26 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:53:14 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:53:29 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 22:54:49 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:04:41 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:05:03 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:05:12 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:05:28 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:05:48 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:06:36 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:07:00 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:07:20 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:07:23 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:07:46 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:07:57 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:08:03 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 23:08:05 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/news" for 127.0.0.1 at Wed Aug 25 23:08:07 +0100 2010
+  Processing by PagesController#news as HTML
+Rendered pages/news.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:08:08 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:09:09 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:10:03 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:10:36 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:11:15 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:11:18 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:11:36 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:12:22 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:12:38 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/news" for 127.0.0.1 at Wed Aug 25 23:12:42 +0100 2010
+  Processing by PagesController#news as HTML
+Rendered pages/news.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:12:47 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:13:20 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:13:40 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 23:13:49 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:13:53 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at Wed Aug 25 23:13:55 +0100 2010
+  Processing by PagesController#gallery as HTML
+Rendered pages/gallery.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at Wed Aug 25 23:13:56 +0100 2010
+  Processing by PagesController#index as HTML
+Rendered pages/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/news" for 127.0.0.1 at Wed Aug 25 23:13:59 +0100 2010
+  Processing by PagesController#news as HTML
+Rendered pages/news.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
