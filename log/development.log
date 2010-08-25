@@ -1,0 +1,88 @@
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:41:35 +0100 2010
+
+ActionController::RoutingError (No route matches "/pages/contact"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/pages/contact.html" for 127.0.0.1 at Wed Aug 25 20:41:41 +0100 2010
+
+ActionController::RoutingError (No route matches "/pages/contact.html"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/contact.html" for 127.0.0.1 at Wed Aug 25 20:49:52 +0100 2010
+
+ActionController::RoutingError (No route matches "/pages/contact.html"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/pages/contact.html" for 127.0.0.1 at Wed Aug 25 20:49:55 +0100 2010
+
+ActionController::RoutingError (No route matches "/pages/contact.html"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:49:59 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:50:02 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:50:04 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/lins" for 127.0.0.1 at Wed Aug 25 20:50:12 +0100 2010
+
+ActionController::RoutingError (No route matches "/pages/lins"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:50:27 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:51:57 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:52:59 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 20:53:02 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Wed Aug 25 21:03:04 +0100 2010
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
