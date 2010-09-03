@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Beatricecurnew::Application.config.secret_token = '84ee7d657dcde5d7cac0370ab6ffbcc1f3492f9d631bb06545f6c876b110d6fc4124c067d546a3f725954be54afe422bbb60350d6810c0ddc57174969e564a53'
+Beatricecurnew::Application.config.secret_token = 'cb8b4e4ddc7e07bdef806543db3916c7671e00ba4323eb7f60943c2e577919362bd505d2c5267dad4a936c3f82d873004cd5a0f6eaeb23a6f67b96384bdee2e2'
