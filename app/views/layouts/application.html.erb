@@ -14,8 +14,10 @@
       <div id="nav">
         <ul id="highlight_<%=@tab_highlight%>">
           <li id="home_tab"><%= link_to "home", "index" %></li>
-          <li id="gallery_tab"><%= link_to "gallery", "gallery" %></li>
           <li id="news_tab"><%= link_to "news", "news" %></li>
+          <li id="gallery_tab"><%= link_to "pictures", "gallery" %></li>
+          <li id="gallery_tab"><%= link_to "sounds", "sound" %></li>
+          <li id="gallery_tab"><%= link_to "video", "video" %></li>
           <li id="contact_tab"><%= link_to "contact", "contact" %></li>
         </ul>
         <h1>Beatrice Curnew</h1>
@@ -25,22 +27,17 @@
 
 
     <div id="main">
-
-<%= yield %>
-
-
-
-
+			<%= yield %>
     </div>
 
 
     <footer>
-  <div id="footer">
-          <ul>
-            <li>&copy;2010</li>
-            <li>Website by <a href="http://uk.linkedin.com/in/jwranderson">Russ Anderson</a></li>
-          </ul>
-  </div>
+		  <div id="footer">
+	      <ul>
+	        <li>&copy;2010</li>
+	        <li>Website by <a href="http://uk.linkedin.com/in/jwranderson">Russ Anderson</a></li>
+	      </ul>
+		  </div>
     </footer>
 
   </div>
