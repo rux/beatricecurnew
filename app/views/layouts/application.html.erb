@@ -9,37 +9,44 @@
 <body>
   
   <div id="everything">
+    <div id="nav">
+      <nav>
 
-    <nav>
-      <div id="nav">
         <ul id="highlight_<%=@tab_highlight%>">
           <li id="home_tab"><%= link_to "home", "index" %></li>
           <li id="news_tab"><%= link_to "news", "news" %></li>
           <li id="gallery_tab"><%= link_to "pictures", "gallery" %></li>
-          <li id="gallery_tab"><%= link_to "sounds", "sound" %></li>
-          <li id="gallery_tab"><%= link_to "video", "video" %></li>
+          <li id="audio_tab"><%= link_to "sounds", "sound" %></li>
+          <li id="video_tab"><%= link_to "video", "video" %></li>
           <li id="contact_tab"><%= link_to "contact", "contact" %></li>
         </ul>
-        <h1>Beatrice Curnew</h1>
-      </div>
-    </nav>
+
+
+      </nav>
+    </div>
       
 
+    <div id="header">            
+      <header>
+        <h1>Beatrice Curnew</h1>
+      </header>
+    </div>
 
     <div id="main">
 			<%= yield %>
+			<div style="clear:both"></div>
     </div>
 
 
-    <footer>
-		  <div id="footer">
+	 <div id="footer">
+      <footer>
 	      <ul>
 	        <li>&copy;2010</li>
 	        <li>Website by <a href="http://uk.linkedin.com/in/jwranderson">Russ Anderson</a></li>
 	      </ul>
-		  </div>
-    </footer>
 
+      </footer>
+		</div>
   </div>
 
   <div id=debug>
