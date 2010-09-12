@@ -16,12 +16,12 @@ class PagesController < ApplicationController
   end
 
   
-  def gallery
+  def sound
     @tab_highlight = "sound"
   end
 
   
-  def gallery
+  def video
     @tab_highlight = "video"
   end
 
