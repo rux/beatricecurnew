@@ -106,6 +106,9 @@ body {
 	padding:1em;
 	margin:0.5em;
 	border:1px solid #eee;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 }
 
 
