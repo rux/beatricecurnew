@@ -59,6 +59,8 @@ Beatricecurnew::Application.routes.draw do
 get "pages/index"
 get "pages/contact"
 get "pages/gallery"
+get "pages/sound"
+get "pages/video"
 get "pages/news"
 
 
