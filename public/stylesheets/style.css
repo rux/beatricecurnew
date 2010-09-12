@@ -23,7 +23,7 @@ body {
 
 #nav ul li {
   display: inline-block;
-  width:76px;
+  width:77px;
   margin:0px;
   padding:0px 1em;
   border-bottom:1px solid #eee;
@@ -31,16 +31,17 @@ body {
 
 
 
-#highlight_home #home_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff;}
-#highlight_gallery #gallery_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff;}
-#highlight_news #news_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff;}
-#highlight_video #video_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff;}
-#highlight_sound #sound_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff;}
-#highlight_contact #contact_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff;}
+#highlight_home #home_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
+#highlight_gallery #gallery_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
+#highlight_news #news_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
+#highlight_video #video_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
+#highlight_sound #sound_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
+#highlight_contact #contact_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
 
 
-#nav nav ul li a { text-decoration: none; width:100%; display:inline-block; padding:0px; color:#333;}
-#nav nav ul li:hover {  background-color:#aaa; }
+#nav ul li a { text-decoration: none; width:100%; display:inline-block; padding:0px; color:#333;}
+#nav ul li:visited {  text-decoration: none;  }
+#nav ul li:hover {  background-color:#777; color:white; }
 
 #header {
   border:1px solid #eee;
@@ -94,6 +95,19 @@ body {
   display:inline;
   padding:0px 30px;
 }
+
+
+
+
+#gallery li {
+	
+	list-style-type: none;
+	display:inline-block;
+	padding:1em;
+	margin:0.5em;
+	border:1px solid #eee;
+}
+
 
 
 
