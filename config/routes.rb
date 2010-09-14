@@ -57,11 +57,12 @@ Beatricecurnew::Application.routes.draw do
   # match ':controller(/:action(/:id(.:format)))'
 
 get "pages/index"
-get "pages/contact"
+get "pages/news"
+get "pages/biog"
 get "pages/gallery"
 get "pages/sound"
-get "pages/video"
-get "pages/news"
+get "pages/contact"
+
 
 
 end
