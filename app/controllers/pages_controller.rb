@@ -36,6 +36,10 @@ class PagesController < ApplicationController
     @tab_highlight = "sound"
   end
 
+  def video
+    @tab_highlight = "video"
+  end
+
   
   def biog
     @tab_highlight = "biog"

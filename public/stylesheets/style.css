@@ -23,20 +23,21 @@ body {
 
 #nav ul li {
   display: inline-block;
-  width:77px;
+  width:60px;
   margin:0px;
   padding:0px 1em;
-  border-bottom:1px solid #eee;
+  font-weight:bold;
 }
 
 
 
-#highlight_home #home_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
-#highlight_gallery #gallery_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
-#highlight_news #news_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
-#highlight_biog #biog_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
-#highlight_sound #sound_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
-#highlight_contact #contact_tab {  background-color:#fff; border:1px solid #eee; border-bottom:1px solid #fff; font-weight:bold;}
+#highlight_home #home_tab {  background-color:#fff;  font-weight:bold; font-size:1.25em;}
+#highlight_gallery #gallery_tab {  background-color:#fff;  font-weight:bold; font-size:1.25em;}
+#highlight_news #news_tab {  background-color:#fff;  font-weight:bold; font-size:1.25em;}
+#highlight_biog #biog_tab {  background-color:#fff;  font-weight:bold; font-size:1.25em;}
+#highlight_sound #sound_tab {  background-color:#fff;  font-weight:bold; font-size:1.25em;}
+#highlight_video #video_tab {  background-color:#fff;  font-weight:bold; font-size:1.25em;}
+#highlight_contact #contact_tab {  background-color:#fff;  font-weight:bold; font-size:1.25em;}
 
 
 #nav ul li a { text-decoration: none; width:100%; display:inline-block; padding:0px; color:#333;}
@@ -44,16 +45,15 @@ body {
 #nav ul li:hover {  background-color:#777; color:white; }
 
 #header {
-  border:1px solid #eee;
-  border-bottom:none;
-  border-top:none;
+
+
 }
-#header h1 {padding:1em 1em 0em; margin:0px;}
+#header h1 { font-size:4em; ;padding:0.5em; margin:0px; color:#333}
 
 
 #main {
-  border-left:1px solid #eee;
-  border-right:1px solid #eee;
+ // border-left:1px solid #eee;
+ // border-right:1px solid #eee;
 }
 
 
@@ -61,6 +61,7 @@ body {
   padding:1em;
   padding-top:3em;
   
+  min-height:500px;
   
 }
 

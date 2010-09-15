@@ -61,6 +61,7 @@ get "pages/news"
 get "pages/biog"
 get "pages/gallery"
 get "pages/sound"
+get "pages/video"
 get "pages/contact"
 
 

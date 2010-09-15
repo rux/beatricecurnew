@@ -10,23 +10,26 @@
 <body>
   
   <div id="everything">
-    <div id="nav">
+      
+
+    <div id="header">            
+      <header>
+        <center><h1>Beatrice Curnew</h1></center>
+      </header>
+    </div>
+    
+    
+        <div id="nav">
       <nav>
 
         <ul id="highlight_<%=@tab_highlight%>">
-          <li id="home_tab"><%= link_to "home", "index" %></li><li id="news_tab"><%= link_to "news", "news" %></li><li id="biog_tab"><%= link_to "biog/CV", "biog" %></li><li id="gallery_tab"><%= link_to "headshots", "gallery" %></li><li id="sound_tab"><%= link_to "showreel/voice clip", "sound" %></li><li id="contact_tab"><%= link_to "contact", "contact" %></li>
+          <li id="home_tab"><%= link_to "Home", "index" %></li><li id="news_tab"><%= link_to "News", "news" %></li><li id="biog_tab"><%= link_to "Biog/CV", "biog" %></li><li id="gallery_tab"><%= link_to "Headshots", "gallery" %></li><li id="sound_tab"><%= link_to "Voiceclip", "sound" %></li><li id="video_tab"><%= link_to "Showreel", "video" %></li><li id="contact_tab"><%= link_to "Contact", "contact" %></li>
         </ul>
 
 
       </nav>
     </div>
-      
 
-    <div id="header">            
-      <header>
-        <h1>Beatrice Curnew</h1>
-      </header>
-    </div>
 
     <div id="main">
 			<%= yield %>
@@ -38,7 +41,7 @@
       <footer>
 	      <ul>
 	        <li>&copy;2010</li>
-	        <li>Beatrice endorses <a href="http://uk.linkedin.com/in/jwranderson">Russ Anderson</a> for internet work</li>
+	        <li>site by <a href="http://uk.linkedin.com/in/jwranderson">Russ Anderson</a></li>
 	      </ul>
 
       </footer>
