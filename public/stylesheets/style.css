@@ -133,21 +133,24 @@ dd {
 
 
 .social_icons {
-	
+	display:block;
 }
 
 .social_icons li {
   width:250px
   display: block;
-float: left;
-height: 16px;
-line-height: 16px;
+  float: left;
+  height: 16px;
+  line-height: 16px;
 }
 
 .social_icons li span.cov-twit { 
 background-position: -16px 0px;
 }
 
+.social_icons li a { 
+  font-size:12px;
+}
 .social_icons li span.cov-fb { 
 background-position: -32px 0px;
 }
