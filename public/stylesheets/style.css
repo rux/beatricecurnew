@@ -105,7 +105,7 @@ body {
 
 
 
-.gallery li {
+#gallery li {
 	
 	list-style-type: none;
 	display:inline-block;

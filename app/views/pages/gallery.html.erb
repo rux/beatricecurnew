@@ -7,8 +7,16 @@
 <h2>Headshots</h2>
 
 
+<script type="text/javascript">
+$(function() {
 
-<ul class="gallery">
+	$('#gallery li a').lightBox(); // Select all links in object with gallery ID
+
+});
+</script>
+
+
+<ul id="gallery">
 <% 
    @images.sort.each do |i| %>
     <li><%=   (link_to image_tag("headshots/t/" + i[0] + ".jpg"), "/images/headshots/" + i[0] + ".jpg")  %></li>
