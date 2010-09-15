@@ -132,6 +132,39 @@ dd {
 }
 
 
+.social_icons {
+	
+}
+
+.social_icons li {
+  width:250px
+  display: block;
+float: left;
+height: 16px;
+line-height: 16px;
+}
+
+.social_icons li span.cov-twit { 
+background-position: -16px 0px;
+}
+
+.social_icons li span.cov-fb { 
+background-position: -32px 0px;
+}
+
+.social_icons li span { 
+background-attachment: scroll;
+background-color: transparent;
+background-image: url("/images/icons.png");
+background-position: 0px 0px;
+background-repeat: no-repeat;
+display: block;
+float: left;
+height: 16px;
+margin-right: 5px;
+width: 16px;
+}
+
 
 
 
@@ -139,3 +172,4 @@ dd {
   margin-top:10em;
   color:gray;
 }
+
