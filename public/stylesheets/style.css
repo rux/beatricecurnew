@@ -69,7 +69,12 @@ body {
   color:#666;
 }
 
-
+#reviews {
+	color:#999;
+	text-align:center;
+	font-style:italic;
+	font-variant:small-caps;
+}
 
 #footer {
 	
@@ -134,14 +139,16 @@ dd {
 
 .social_icons {
 	display:block;
+  padding-left:0;
 }
 
 .social_icons li {
-  width:250px
+  width:300px
   display: block;
-  float: left;
   height: 16px;
   line-height: 16px;
+  list-style:none;
+  margin-bottom:.5em;
 }
 
 .social_icons li span.cov-twit { 
