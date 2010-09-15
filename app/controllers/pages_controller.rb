@@ -15,17 +15,21 @@ class PagesController < ApplicationController
     @tab_highlight = "gallery"
     
     @images = {
-			"2" => "Headshot <br/> Wolf Marloh 2009",
-			"3" => "It's a pirates life <br/> Promo 2010",
-			#"4" => "Shooting a corporate for<br/>The Aviation Academy",
-			"5" => "Wirchy Woo <br/> Filming a short 2008",
-			"6" => "rehearsing...",
-			"7" => "Rehearsed reading 2009",
-			"9" => "The Black Veil <br/> Basingstoke 2010",
-			"10" => "Shooting a Redbull ad",
-			"11" => "Waiting for Romeo <br/>Pleasance 2009",
-			"12" => "Clip from a short <br/> parachute jump",
-			"13" => "Aphrodite in Hippolytus <br/> Riverside Studios 2009"
+			"20" => "",
+			"21" => "",
+			"22" => "",
+			"24" => "",
+			"23" => "",
+			
+			"a2" => "",
+			"a3" => "It's a pirates life <br/> Promo 2010",
+			"a5" => "Wirchy Woo <br/> Filming a short 2008",
+			"a6" => "Rehearsing...",
+			"a7" => "Rehearsed reading 2009",
+			"a9" => "The Black Veil <br/> Basingstoke 2010",
+			"a10" => "Shooting a Redbull ad",
+			"a11" => "Waiting for Romeo <br/>Pleasance 2009",
+			"a13" => "Aphrodite in Hippolytus <br/> Riverside Studios 2009"
     }
     
    
