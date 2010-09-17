@@ -56,13 +56,16 @@ Beatricecurnew::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
 
-get "pages/index"
-get "pages/news"
-get "pages/biog"
-get "pages/gallery"
-get "pages/sound"
-get "pages/video"
-get "pages/contact"
+root :to => "pages#index"
+
+match "index", :to => "pages#index"
+match "news", :to => "pages#news"
+match "biog", :to => "pages#biog"
+match "gallery", :to => "pages#gallery"
+match "sound", :to => "pages#sound"
+match "video", :to => "pages#video"
+match "contact", :to => "pages#contact"
+
 
 
 
