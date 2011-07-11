@@ -1,7 +1,7 @@
 
 body {
   font-size: 10pt;
-  font-family: calibri, helvetica, sans-serif;
+  font-family: "trebuchet MS", helvetica, sans-serif;
 }
 
 #everything {
@@ -79,6 +79,8 @@ body {
 }
 
 #footer {
+	
+	display:none;
 	
   color:#ddd;
   clear:both;
