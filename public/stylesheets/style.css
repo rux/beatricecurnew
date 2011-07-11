@@ -111,6 +111,11 @@ strong {
 }
 
 
+h2 {
+  color:#c45626;
+}
+
+
 
 
 #gallery li {
@@ -142,6 +147,21 @@ dd {
 	width:400px;
 	display:inline-block;
 	vertical-align:top;
+}
+
+
+.biog_box {
+  float:left;
+}
+
+.biog_box th {
+  color:#c45626;
+}
+
+
+
+.cv_box {
+  width:100%;
 }
 
 
@@ -184,6 +204,9 @@ width: 16px;
 }
 
 
+.clear {
+  clear:both;
+}
 
 
 #debug {
