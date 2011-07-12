@@ -129,18 +129,14 @@ h2 {
 
 
 #gallery li {
-	
 	list-style-type: none;
 	display:inline-block;
-	padding:1em;
-	margin:0.5em;
-	border:1px solid #eee;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
 }
 
-
+#gallery .headshot {
+  padding:0.3em;
+  border-width:1px;
+}
 
 
 dt {

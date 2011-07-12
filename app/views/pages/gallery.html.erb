@@ -1,28 +1,27 @@
-
-
-
-<div id="content">
-
-
-<h2>Headshots</h2>
-
-
 <script type="text/javascript">
 $(function() {
 
-	$('#gallery li a').lightBox(); // Select all links in object with gallery ID
+  $('#gallery li a').lightBox(); // Select all links in object with gallery ID
 
 });
 </script>
 
 
-<ul id="gallery">
-<% 
-   @images.sort.each do |i| %>
-    <li><%=   (link_to image_tag("headshots/t/" + i[0] + ".jpg"), "/images/headshots/" + i[0] + ".jpg")  %></li>
-<% end %>
-</ul>
 
+<div id="content">
+  <h2>Headshots</h2>
+  <img class="headshot" style="margin-top:3em;" src="/images/headshots/beatrice_curnew_1.jpg" width="100%">
+
+	
+	<center>
+	  <ul id="gallery">
+			<% @images.each do |i| %>
+			   <li>
+			     <%= (link_to image_tag("headshots/beatrice_curnew_" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot"), "/images/headshots/beatrice_curnew_" + i.to_s + ".jpg")  %>
+			   </li>
+			<% end %>
+		</ul>
+	</center>
 
 
 
