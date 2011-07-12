@@ -120,6 +120,12 @@ h2 {
 }
 
 
+.headshot {
+  border:2px double #c45626;
+  padding:1em;
+  -moz-box -shadow: 5px 5px 5px #ccc; -webkit-box-shadow: 5px 5px 5px #ccc;
+  margin:1em;
+}
 
 
 #gallery li {
