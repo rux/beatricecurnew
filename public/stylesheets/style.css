@@ -155,11 +155,20 @@ dd {
 
 
 .biog_box {
-  float:left;
+        width:100%
 }
 
-.biog_box th {
-  color:#c45626;
+
+.biog_box td {
+        width:33%
+}
+
+.biog_box a {
+       color:#c45626; 
+}
+
+.biog_box a:visited {
+       color:#c45626; 
 }
 
 
