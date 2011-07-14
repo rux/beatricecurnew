@@ -1,23 +1,37 @@
 <script type="text/javascript">
-$(function() {
 
-  $('#gallery li a').lightBox(); // Select all links in object with gallery ID
-
+$(document).ready(function() {
+  $('#gallery li a').click(function() {
+    $lh = $("#large_headshot");
+    var new_image_url = this.href;
+    $lh.animate(
+     {opacity:0},
+     500,
+     function() {
+       $lh.attr("src", new_image_url);
+     }
+    );
+    $lh.animate(
+    {opacity:1},
+    300)
+    return false;
+  });
 });
+
 </script>
 
 
 
 <div id="content">
   <h2>Headshots</h2>
-  <img class="headshot" style="margin-top:3em;" src="/images/headshots/beatrice_curnew_1.jpg" width="100%">
+  <img id="large_headshot" class="headshot" style="margin-top:3em;" src="/images/headshots/beatrice_curnew_1.jpg" width="100%">
 
 	
 	<center>
 	  <ul id="gallery">
 			<% @images.each do |i| %>
 			   <li>
-			     <%= (link_to image_tag("headshots/beatrice_curnew_" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot"), "/images/headshots/beatrice_curnew_" + i.to_s + ".jpg")  %>
+			     <%= (link_to image_tag("headshots/beatrice_curnew_" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot", :alt=>"Beatrice Curnew"), "/images/headshots/beatrice_curnew_" + i.to_s + ".jpg" )  %>
 			   </li>
 			<% end %>
 		</ul>
