@@ -179,6 +179,18 @@ dd {
   width:100%;
 }
 
+.cv_box td:nth-child(1) {
+  width:40%
+}
+.cv_box td:nth-child(2) {
+  width:30%;
+  color:#333;
+}
+.cv_box td:nth-child(3) {
+  width:30%;
+  color:#333;
+}
+
 
 .social_icons {
 	display:block;
