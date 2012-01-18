@@ -1,5 +1,16 @@
 <script type="text/javascript">
 
+$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+
+
+// $(['img1.jpg','img2.jpg','img3.jpg']).preload();
+
+
 $(document).ready(function() {
   $('#gallery li a').click(function() {
     lh = $("#large_headshot");
@@ -24,7 +35,9 @@ $(document).ready(function() {
 			<% @images.each do |i| %>
 			   <li>
 			     <%= (link_to image_tag("headshots/beatrice_curnew_" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot", :alt=>"Beatrice Curnew"), "/images/headshots/beatrice_curnew_" + i.to_s + ".jpg" )  %>
+			     <script> $(["<%= "/images/headshots/beatrice_curnew_" + i.to_s + ".jpg" %>"]).preload();</script>
 			   </li>
+
 			<% end %>
 		</ul>
 	</center>
