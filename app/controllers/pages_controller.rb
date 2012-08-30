@@ -15,7 +15,7 @@ class PagesController < ApplicationController
   def gallery
     @tab_highlight = "gallery"
     
-    @images = [1,2,3]
+    @images = [1,2,3,4,5,6,7]
     
    
   end
