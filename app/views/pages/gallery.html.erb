@@ -29,7 +29,7 @@ $(document).ready(function() {
   <h2>Headshots</h2>
   <img id="large_headshot" class="headshot" style="margin-top:3em;" src="/images/headshots/Beatrice-Curnew-1.jpg" width="100%">
 
-	
+
 	<center>
 	  <ul id="gallery">
 			<% @images.each do |i| %>
@@ -39,6 +39,16 @@ $(document).ready(function() {
 			   </li>
 
 			<% end %>
+
+      <br/>
+
+      <% @screen_images.each do |i| %>
+         <li>
+           <%= (link_to image_tag("headshots/Beatrice-Curnew-" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot", :alt=>"Beatrice Curnew"), "/images/headshots/Beatrice-Curnew-" + i.to_s + ".jpg" )  %>
+           <script> $(["<%= "/images/headshots/Beatrice-Curnew-" + i.to_s + ".jpg" %>"]).preload();</script>
+         </li>
+
+      <% end %>
 		</ul>
 	</center>
 
