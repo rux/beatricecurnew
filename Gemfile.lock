@@ -34,7 +34,7 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     excon (0.31.0)
-    heroku (3.2.2)
+    heroku (3.2.3)
       heroku-api (~> 0.3.7)
       launchy (>= 0.3.2)
       netrc (~> 0.7.7)
