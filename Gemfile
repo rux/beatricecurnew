@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.1.0'
 
 gem 'rails',  '=3.0.20'
-
+gem 'unicorn'
 gem 'heroku'
 
 # Bundle edge Rails instead:
