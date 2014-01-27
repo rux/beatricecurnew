@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'bundler', '>1.2'
+gem 'bundler', '=1.5.2'
 
 ruby '1.9.3'
 
@@ -11,7 +11,7 @@ gem 'heroku'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', '1.3.0', :require => 'sqlite3'
+# gem 'sqlite3-ruby', '1.3.0', :require => 'sqlite3'
 #
 # Use unicorn as the web server
 # gem 'unicorn'
