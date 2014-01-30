@@ -2,7 +2,8 @@ source 'http://rubygems.org'
 
 ruby '2.1.0'
 
-gem 'rails',  '=3.0.20'
+gem 'rails',  '=4.0.2'
+gem 'sqlite3'
 gem 'unicorn'
 gem 'heroku'
 
