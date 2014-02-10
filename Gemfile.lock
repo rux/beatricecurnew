@@ -26,12 +26,13 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     addressable (2.3.5)
-    arel (4.0.1)
+    arel (4.0.2)
     atomic (1.1.14)
     builder (3.1.4)
     erubis (2.7.0)
     excon (0.31.0)
-    heroku (3.2.4)
+    execjs (2.0.2)
+    heroku (3.3.0)
       heroku-api (~> 0.3.17)
       launchy (>= 0.3.2)
       netrc (~> 0.7.7)
@@ -42,7 +43,8 @@ GEM
       multi_json (~> 1.8.2)
     hike (1.2.3)
     i18n (0.6.9)
-    kgio (2.8.1)
+    json (1.8.1)
+    kgio (2.9.1)
     launchy (2.4.2)
       addressable (~> 2.3)
     mail (2.5.4)
@@ -92,7 +94,10 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.38)
-    unicorn (4.8.1)
+    uglifier (2.4.0)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+    unicorn (4.8.2)
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
@@ -104,4 +109,5 @@ DEPENDENCIES
   heroku
   pg
   rails (= 4.0.2)
+  uglifier
   unicorn

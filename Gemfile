@@ -6,6 +6,7 @@ gem 'rails',  '=4.0.2'
 gem 'pg'
 gem 'unicorn'
 gem 'heroku'
+gem 'uglifier'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
