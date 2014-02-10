@@ -5,3 +5,7 @@ tmp/**/*
 .DS_Store
 *.bak
 ruby/
+
+
+.sass-cache/
+public/assets/
