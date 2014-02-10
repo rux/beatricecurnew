@@ -15,8 +15,15 @@ $(document).ready(function() {
   $('#gallery li a').click(function() {
     lh = $("#large_headshot");
     var new_image_url = this.href;
-    lh.animate( {opacity:0}, 500, function() { lh.attr("src", new_image_url); });
-    lh.animate( {opacity:1}, 300)
+    // lh.animate( {opacity:0}, 500, function() {lh.attr("src", new_image_url); });
+    // lh.animate( {opacity:1}, 300)
+
+    lh.fadeOut(300, function() {
+      lh.attr("src", new_image_url).bind("onreadystatechange load", function() {
+        if (this.complete) {lh.fadeIn(300);}
+      })
+    })
+
     return false;
   });
 });
