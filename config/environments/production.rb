@@ -19,8 +19,18 @@ Beatricecurnew::Application.configure do
   # For large-scale production use, consider using a caching reverse proxy like nginx, varnish or squid.
   # config.action_dispatch.rack_cache = true
 
+
+
+
+# http://stackoverflow.com/questions/19650621/heroku-upload-precompiling-assets-failed
+config.assets.initialize_on_precompile = false
+
+
+
+
+
   # Disable Rails's static asset server (Apache or nginx will already do this).
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
