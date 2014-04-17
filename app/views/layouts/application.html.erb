@@ -18,28 +18,19 @@
 </script>
 </head>
 <body>
-
   <div id="everything">
-
-
     <div id="header">
       <header>
         <center><h1><a href="/"><%= image_tag "beatrice_curnew_swish.png", :alt=>"Beatrice Curnew" %></a></h1></center>
       </header>
     </div>
-
-
-        <div id="nav">
+    <div id="nav">
       <nav>
-
         <ul id="highlight_<%=@tab_highlight%>">
-          <li id="biog_tab"><%= link_to "CV", "biog" %></li><li id="video_tab"><%= link_to "Showreel", "video" %></li><li id="gallery_tab"><%= link_to "Headshots", "gallery" %></li><li id="contact_tab"><%= link_to "Contact", "contact" %></li>
+          <li id="biog_tab"><%= link_to "CV", "biog" %></li><li id="video_tab"><%= link_to "Showreel", "video" %></li><li id="sound_tab"><%= link_to "Voicereel", "sound" %></li><li id="gallery_tab"><%= link_to "Headshots", "gallery" %></li><li id="contact_tab"><%= link_to "Contact", "contact" %></li>
         </ul>
-
-
       </nav>
     </div>
-
 
     <div id="main">
 			<%= yield %>
@@ -47,7 +38,6 @@
     </div>
 
   <div id=reviews>
-
     <p><%= [
       "<em>\"...played with panache by Curnew...\"</em> &nbsp; BBC North Yorks".html_safe,
       "<em>\"She is exceptional. She dictates the comic vigor of the play\"</em> &nbsp; The Stage".html_safe,
@@ -55,9 +45,7 @@
       "<em>\"...(she) fizzes with energy...\"</em> &nbsp; Scarborough Evening News".html_safe,
       "<em>\"Beatrice Curnew is tenacious.\"</em> &nbsp; The Times".html_safe
       ][rand(4)] %></p>
-
   </div>
-
 
 	 <div id="footer">
       <footer>
@@ -65,7 +53,6 @@
 	        <li>&copy;2014</li>
 	        <li>site by <a href="http://uk.linkedin.com/in/jwranderson">Russ Anderson</a></li>
 	      </ul>
-
       </footer>
 		</div>
   </div>
