@@ -3,47 +3,34 @@
 <head>
   <title>Beatrice Curnew: Actor, voiceover artist, babe</title>
   <meta charset="UTF-8">
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" %>
-  <% javascript_include_tag 'jquery-1.6.2' %>
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <%= csrf_meta_tag %>
-  <script type="text/javascript">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-18564556-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', 'UA-18564556-1', 'beatricecurnew.com');
+  ga('send', 'pageview');
 
 </script>
 </head>
 <body>
-  
   <div id="everything">
-      
-
-    <div id="header">            
+    <div id="header">
       <header>
         <center><h1><a href="/"><%= image_tag "beatrice_curnew_swish.png", :alt=>"Beatrice Curnew" %></a></h1></center>
       </header>
     </div>
-    
-    
-        <div id="nav">
+    <div id="nav">
       <nav>
-
         <ul id="highlight_<%=@tab_highlight%>">
-          <li id="biog_tab"><%= link_to "CV", "biog" %></li><li id="video_tab"><%= link_to "Showreel", "video" %></li><li id="gallery_tab"><%= link_to "Headshots", "gallery" %></li><li id="contact_tab"><%= link_to "Contact", "contact" %></li>
+          <li id="biog_tab"><%= link_to "CV", "biog" %></li><li id="video_tab"><%= link_to "Showreel", "video" %></li><li id="sound_tab"><%= link_to "Voicereel", "sound" %></li><li id="gallery_tab"><%= link_to "Headshots", "gallery" %></li><li id="contact_tab"><%= link_to "Contact", "contact" %></li>
         </ul>
-
-
       </nav>
     </div>
-
 
     <div id="main">
 			<%= yield %>
@@ -51,7 +38,6 @@
     </div>
 
   <div id=reviews>
-  
     <p><%= [
       "<em>\"...played with panache by Curnew...\"</em> &nbsp; BBC North Yorks".html_safe,
       "<em>\"She is exceptional. She dictates the comic vigor of the play\"</em> &nbsp; The Stage".html_safe,
@@ -59,17 +45,14 @@
       "<em>\"...(she) fizzes with energy...\"</em> &nbsp; Scarborough Evening News".html_safe,
       "<em>\"Beatrice Curnew is tenacious.\"</em> &nbsp; The Times".html_safe
       ][rand(4)] %></p>
-
   </div>
-
 
 	 <div id="footer">
       <footer>
 	      <ul>
-	        <li>&copy;2010</li>
+	        <li>&copy;2014</li>
 	        <li>site by <a href="http://uk.linkedin.com/in/jwranderson">Russ Anderson</a></li>
 	      </ul>
-
       </footer>
 		</div>
   </div>

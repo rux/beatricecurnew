@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 
-gem 'bundler', '=1.5.2'
+ruby '2.2.1'
 
-ruby '1.9.3'
-
-gem 'rails',  '=3.0.20'
-
+gem 'rails',  '=4.2.0'
+gem 'pg'
+gem 'unicorn'
 gem 'heroku'
+gem 'uglifier'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

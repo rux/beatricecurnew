@@ -7,7 +7,7 @@ body {
 #everything {
   max-width:630px;
   margin:0px auto;
-  
+
 }
 
 
@@ -23,7 +23,7 @@ body {
 
 #nav ul li {
   display: inline-block;
-  width:115px;
+  width:90px;
   margin:0px;
   padding:0px 1em;
   font-weight:bold;
@@ -64,9 +64,9 @@ body {
 #content {
   padding:1em;
   padding-top:3em;
-  
+
   min-height:500px;
-  
+
 }
 
 #content a {
@@ -81,18 +81,18 @@ body {
 }
 
 #footer {
-	
-	display:none;
-	
+
+	/*display:none;*/
+
   color:#ddd;
   clear:both;
   text-align:center;
-  background-image:url("/images/marble_bar.jpg");
+  /*background-image:url("/images/marble_bar.jpg");*/
   background-position: center top;
   background-repeat:no-repeat;
   padding-top:28px;
-  
-  
+
+
 }
 #footer a {
   color:#ddd;
@@ -166,11 +166,11 @@ dd {
 }
 
 .biog_box a {
-       color:#c45626; 
+       color:#c45626;
 }
 
 .biog_box a:visited {
-       color:#c45626; 
+       color:#c45626;
 }
 
 
@@ -198,7 +198,7 @@ dd {
 }
 
 .social_icons li {
-  width:300px
+  width:300px;
   display: block;
   height: 16px;
   line-height: 16px;
@@ -206,21 +206,21 @@ dd {
   margin-bottom:.5em;
 }
 
-.social_icons li span.cov-twit { 
+.social_icons li span.cov-twit {
 background-position: -16px 0px;
 }
 
-.social_icons li a { 
+.social_icons li a {
   font-size:12px;
 }
-.social_icons li span.cov-fb { 
+.social_icons li span.cov-fb {
 background-position: -32px 0px;
 }
 
-.social_icons li span { 
+.social_icons li span {
 background-attachment: scroll;
 background-color: transparent;
-background-image: url("/images/icons.png");
+background-image: url("/assets/icons.png");
 background-position: 0px 0px;
 background-repeat: no-repeat;
 display: block;

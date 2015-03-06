@@ -1,19 +1,27 @@
 <div id="content">
-
-<h2>Voiceclip</h2>
-
-<center>
-<audio src="/images/voice.mp3" controls preload=auto>
-
-	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
-	<param name=movie value="/javascripts/niftyplayer.swf?file=/images/voice.mp3">
-	<param name=quality value=high>
-	<param name=bgcolor value=#FFFFFF>
-	<embed src="/javascripts/niftyplayer.swf?file=/images/voice.mp3" quality=high bgcolor=#FFFFFF width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
-	</embed>
-	</object>
-
-</audio>
-</center>
-
-</div>      
+	<h2>Voicereels</h2>
+	<h3>Commercial Complication</h3>
+	<center>
+		<audio src="<%= asset_path('Curnew-Commercial_Compilation.mp3') %>" controls preload=auto>
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
+			<param name=movie value="/javascripts/niftyplayer.swf?file=<%= asset_path('Curnew-Commercial_Compilation.mp3') %>">
+			<param name=quality value=high>
+			<param name=bgcolor value=#FFFFFF>
+			<embed src="/javascripts/niftyplayer.swf?file=<%= asset_path('Curnew-Commercial_Compilation.mp3') %>" quality=high bgcolor=#FFFFFF width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+			</embed>
+			</object>
+		</audio>
+	</center>
+	<h3>Drama Complication</h3>
+	<center>
+		<audio src="<%= asset_path('Curnew-Drama_Compilation.mp3') %>" controls preload=auto>
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="165" height="38" id="niftyPlayer1" align="">
+			<param name=movie value="/javascripts/niftyplayer.swf?file=<%= asset_path('Curnew-Drama_Compilation.mp3') %>">
+			<param name=quality value=high>
+			<param name=bgcolor value=#FFFFFF>
+			<embed src="/javascripts/niftyplayer.swf?file=<%= asset_path('Curnew-Drama_Compilation.mp3') %>" quality=high bgcolor=#FFFFFF width="165" height="38" name="niftyPlayer1" align="" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+			</embed>
+			</object>
+		</audio>
+	</center>
+</div>

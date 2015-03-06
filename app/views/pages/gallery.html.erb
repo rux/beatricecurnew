@@ -15,8 +15,15 @@ $(document).ready(function() {
   $('#gallery li a').click(function() {
     lh = $("#large_headshot");
     var new_image_url = this.href;
-    lh.animate( {opacity:0}, 500, function() { lh.attr("src", new_image_url); });
-    lh.animate( {opacity:1}, 300)
+    // lh.animate( {opacity:0}, 500, function() {lh.attr("src", new_image_url); });
+    // lh.animate( {opacity:1}, 300)
+
+    lh.fadeOut(300, function() {
+      lh.attr("src", new_image_url).bind("onreadystatechange load", function() {
+        if (this.complete) {lh.fadeIn(300);}
+      })
+    })
+
     return false;
   });
 });
@@ -27,15 +34,15 @@ $(document).ready(function() {
 
 <div id="content">
   <h2>Headshots</h2>
-  <img id="large_headshot" class="headshot" style="margin-top:3em;" src="/images/headshots/Beatrice-Curnew-2014-1.jpg" width="100%">
+  <%= image_tag "headshots/Beatrice-Curnew-2014-1.jpg", :id=>"large_headshot", :alt=>"Beatrice Curnew", :class=>"headshot", :style=>"margin-top:3em", :width=>"100%" %>
 
 
 	<center>
 	  <ul id="gallery">
 			<% @images.each do |i| %>
 			   <li>
-			     <%= (link_to image_tag("headshots/Beatrice-Curnew-2014-" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot", :alt=>"Beatrice Curnew"), "/images/headshots/Beatrice-Curnew-2014-" + i.to_s + ".jpg" )  %>
-			     <script> $(["<%= "/images/headshots/Beatrice-Curnew-2014-" + i.to_s + ".jpg" %>"]).preload();</script>
+			     <%= (link_to image_tag("headshots/Beatrice-Curnew-2014-" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot", :alt=>"Beatrice Curnew"), "/assets/headshots/Beatrice-Curnew-2014-" + i.to_s + ".jpg" )  %>
+			     <script> $(["<%= "/assets/headshots/Beatrice-Curnew-2014-" + i.to_s + ".jpg" %>"]).preload();</script>
 			   </li>
 
 			<% end %>
@@ -44,8 +51,8 @@ $(document).ready(function() {
 
       <% @screen_images.each do |i| %>
          <li>
-           <%= (link_to image_tag("headshots/Beatrice-Curnew-" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot", :alt=>"Beatrice Curnew"), "/images/headshots/Beatrice-Curnew-" + i.to_s + ".jpg" )  %>
-           <script> $(["<%= "/images/headshots/Beatrice-Curnew-" + i.to_s + ".jpg" %>"]).preload();</script>
+           <%= (link_to image_tag("headshots/Beatrice-Curnew-" + i.to_s + ".jpg", :width=>"90px", :class=>"headshot", :alt=>"Beatrice Curnew"), "/assets/headshots/Beatrice-Curnew-" + i.to_s + ".jpg" )  %>
+           <script> $(["<%= "/assets/headshots/Beatrice-Curnew-" + i.to_s + ".jpg" %>"]).preload();</script>
          </li>
 
       <% end %>
