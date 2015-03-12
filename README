@@ -4,12 +4,14 @@ This is the website for Beatrice Curnew, a British actress.  If you're reading t
 you're probably not a regular visitor to her site, you're more likely a rails
 developer or someone who happens to be looking at my github account.  The code
 for this simple site is all sitting in the public domain because I couldn't
-think of a reason for hiding it. Yay open source.  I remember being frustrated
-when I was starting out using rails that there were no super-simple sites out
-there that I could have a look at and examine, so I guess I'm scratching that
-temporal itch there.  This is a site that doesn't have a database or try to
-be a live blogging platform or anything, it just sits on heroku and serves static
-content.  Not everyone's ideal for a rails powered site, but there's still some
-mileage in the KISS principle.
+think of a reason for hiding it.
 
 Russ
+
+
+
+Note to self... if the postgress complains, just do a 
+
+pg_ctl -D /usr/local/var/postgres94 -l logfile start
+
+or something similar.  Pg's not being used, but I can't be bothered to unpick it.
