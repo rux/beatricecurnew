@@ -67,7 +67,9 @@ body {
   text-align:center;
 }
 
-/* this is to shrink the header on smaller screens */
+
+
+/* this is to shrink stuff on smaller screens */
 @media only screen  and (max-device-width : 480px) {
 /* Styles */
   #header img {
@@ -79,7 +81,12 @@ body {
     display:block;
     padding-top:5px;
   }
+
+  .headshot.index {
+    width:240px;
+  }
 }
+
 
 
 #main {
