@@ -62,7 +62,24 @@ body {
 
 
 }
-#header h1 { font-size:4em; ;padding:0.5em; margin:0px; color:#333}
+#header h1 {
+  font-size:4em; ;padding:0.5em; margin:0px; color:#333;
+  text-align:center;
+}
+
+/* this is to shrink the header on smaller screens */
+@media only screen  and (max-device-width : 480px) {
+/* Styles */
+  #header img {
+    width:300px;
+  }
+
+  #nav ul li {
+    width:auto;
+    display:block;
+    padding-top:5px;
+  }
+}
 
 
 #main {
