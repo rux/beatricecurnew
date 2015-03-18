@@ -73,7 +73,7 @@ body {
 @media only screen  and (max-device-width : 480px) {
 /* Styles */
   #header img {
-    width:300px;
+    width:280px;
   }
 
   #nav ul li {
@@ -82,7 +82,7 @@ body {
     padding-top:5px;
   }
 
-  .headshot.index {
+  .headshot {
     width:240px;
   }
 }
