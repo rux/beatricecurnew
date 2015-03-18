@@ -90,6 +90,18 @@ body {
 	font-variant:small-caps;
 }
 
+
+.associations {
+  clear:both;
+  text-align:center;
+  margin-top:5em;
+}
+
+.associations a {
+  margin:10px 30px;
+}
+
+
 #footer {
 
 	/*display:none;*/
@@ -160,7 +172,6 @@ dt {
 
 dd {
 	margin-top:1em;
-	width:400px;
 	display:inline-block;
 	vertical-align:top;
 }
