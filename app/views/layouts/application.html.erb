@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Beatrice Curnew: Actor, voiceover artist, babe</title>
+  <title><%= content_for?(:title) ? yield(:title) : "Beatrice Curnew: Actor, voiceover artist, babe" %></title>
   <meta charset="UTF-8">
   <%= stylesheet_link_tag "application", media: "all" %>
   <%= csrf_meta_tag %>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
   <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <meta name="Description"><%= content_for?(:description) ? yield(:description) : "" %></title>
 </head>
 <body>
   <div id="everything">
