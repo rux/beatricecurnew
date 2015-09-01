@@ -5,7 +5,6 @@ ruby '2.2.1'
 gem 'rails',  '=4.2.0'
 gem 'pg'
 gem 'unicorn'
-gem 'heroku'
 gem 'uglifier'
 
 gem 'rails_12factor'
